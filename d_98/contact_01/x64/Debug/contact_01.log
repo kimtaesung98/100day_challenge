@@ -1,0 +1,5 @@
+﻿  contact_01.cpp
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\contact_01\contact_01.cpp(49,31): warning C4101: 'deposit' :참조되지 않은 지역 변수입니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\contact_01\contact_01.cpp(49,13): warning C4101: 'remain' :참조되지 않은 지역 변수입니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\contact_01\contact_01.cpp(49,21): warning C4101: 'withdraw' :참조되지 않은 지역 변수입니다.
+  contact_01.vcxproj -> C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\contact_01\x64\Debug\contact_01.exe

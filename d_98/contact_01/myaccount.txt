@@ -1,0 +1,12 @@
+辫怕己
+withdraw: 0deposit: 0remain: 0
+deposit: 1000new balance: 1000
+withdraw: 500 new balance: 
+辫怕己
+withdraw: 0deposit: 0remain: 0
+辫怕己
+withdraw: 0deposit: 0remain: 0
+辫怕己
+withdraw: 0deposit: 0remain: 0
+deposit: 5000new balance: 5000
+withdraw: 4000 new balance: 1000
