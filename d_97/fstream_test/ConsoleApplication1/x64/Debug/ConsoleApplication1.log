@@ -1,0 +1,16 @@
+﻿  ConsoleApplication1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(7,21): error C2039: 'filesystem': 'std'의 멤버가 아닙니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : 'std' 선언을 참조하십시오.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(7,31): error C2878: 'filesystem': 같은 이름을 가진 네임스페이스 또는 클래스가 없습니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(17,13): error C2653: 'fs': 클래스 또는 네임스페이스 이름이 아닙니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(17,17): error C3861: 'exists': 식별자를 찾을 수 없습니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(48,13): error C2653: 'fs': 클래스 또는 네임스페이스 이름이 아닙니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(48,17): error C2664: 'int remove(const char *)': 인수 1을(를) 'std::string'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(48,24): message : 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(369,26): message : 'remove' 선언을 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(2158,43): message : '_FwdIt std::remove(_FwdIt,const _FwdIt,const _Ty &)'일 수 있습니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(48,17): message : '_FwdIt std::remove(_FwdIt,const _FwdIt,const _Ty &)': 3개의 인수가 필요합니다. 1개가 제공되었습니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(48,17): message : 인수 목록 '(std::string)'을(를) 일치시키는 동안
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(73,5): error C2653: 'fs': 클래스 또는 네임스페이스 이름이 아닙니다.
+C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\fstream_test\ConsoleApplication1\ConsoleApplication1.cpp(73,9): error C3861: 'create_directory': 식별자를 찾을 수 없습니다.
