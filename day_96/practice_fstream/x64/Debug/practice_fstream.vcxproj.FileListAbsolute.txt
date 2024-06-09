@@ -1,1 +1,2 @@
 C:\Users\kim25\source\repos\myfirstvs2023project\c++_project\day_100\day_96\practice_fstream\x64\Debug\practice_fstream.exe
+C:\Users\kim25\Documents\GitHub\100day_challenge\day_96\practice_fstream\x64\Debug\practice_fstream.exe

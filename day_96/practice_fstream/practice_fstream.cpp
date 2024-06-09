@@ -2,24 +2,20 @@
 #include < fstream>
 #include <string>
 #include < vector>
+#include <filesystem>
 
 using namespace std;
 
 namespace fs = std::filesystem;
 
 int main() {
-	fstream file("example.txt", ios::out | ios::in | ios::trunc);
-	if (!file) {
-		cerr << "unable to open file example.txt";
-		return 1;
-	}
-	file << "12345" << endl;
-	file << "67890" << endl;
+	fs::path dir = "example_directory";
+	fs::create_directory(dir);
+	fs::path file = "example_directory/example_file.txt";
 
-	file.seekg(6);
-	char c;
-	while (file.get(c)) {
-		cout << c;
-	}
-	file.close();
+	ofstream outfile(file);
+	outfile << "hello, filesystem!" << endl;
+	outfile.close();
+
+	cout << "file created: " << file << endl;
 }
