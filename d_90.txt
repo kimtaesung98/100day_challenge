@@ -1,0 +1,35 @@
+//too many storage in file.
+//d_90_code
+#include<iostream>
+#include<fstream>
+#include<filesystem>
+#include<vector>
+#include<algorithm>
+namespace fs = std::filesystem;
+
+void createAndWriteFile(const std::string& path, const  std::string& content) {
+	std::ofstream outfile(path);
+	if (outfile.is_open()) {
+		outfile << content;
+		outfile.close();
+		std::cout << "file created and written: " << path << std::endl;
+	}
+	else {
+		std::cout << "failed to create file: " << path << std::endl;
+	}
+}
+int main() {
+	std::vector<std::string> files = { "dir1/file1.txt", "dir2/file2.txt", "dir3/file3.txt" };
+	std::vector<fs::path> sorted_files;
+	for (const auto& dir_entry : fs::recursive_directory_iterator(".")) {
+		if (fs::is_regular_file(dir_entry)) {
+			sorted_files.push_back(dir_entry.path());
+		}
+	}
+	std::sort(sorted_files.begin(), sorted_files.end());
+
+	std::cout << "sorted file names: " << std::endl;
+	for (const auto& file : sorted_files) {
+		std::cout << file.string() << std::endl;
+	}
+}
